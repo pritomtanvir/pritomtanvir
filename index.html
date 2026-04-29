@@ -1,195 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Tanvir Rahman</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Tanvir Rahman</title>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: "Segoe UI", Arial, sans-serif;
-      background: #f4f6f9;
-      color: #222;
-    }
+<style>
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f6f9;
+  color: #222;
+}
 
-    header {
-      background: linear-gradient(135deg, #002855, #00509e);
-      color: white;
-      padding: 70px 20px;
-      text-align: center;
-    }
+header {
+  background: linear-gradient(135deg, #002855, #00509e);
+  color: white;
+  padding: 70px 20px;
+  text-align: center;
+}
 
-    header h1 {
-      font-size: 2.6rem;
-      margin: 0;
-    }
+header h1 { margin: 0; }
 
-    header p {
-      margin-top: 10px;
-      color: #e6eef8;
-    }
+.header-buttons a {
+  margin: 8px;
+}
 
-    .header-buttons a {
-      margin: 8px;
-    }
+nav {
+  background: white;
+  padding: 12px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
 
-    nav {
-      background: white;
-      padding: 12px;
-      text-align: center;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-    }
+nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #002855;
+  font-weight: 600;
+}
 
-    nav a {
-      margin: 0 12px;
-      text-decoration: none;
-      color: #002855;
-      font-weight: 600;
-    }
+.container {
+  max-width: 1050px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
 
-    nav a:hover {
-      color: #00509e;
-    }
+section {
+  background: white;
+  padding: 30px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
 
-    .container {
-      max-width: 1050px;
-      margin: 30px auto;
-      padding: 0 20px;
-    }
+h2 {
+  color: #002855;
+  border-bottom: 2px solid #e8eef5;
+  padding-bottom: 8px;
+}
 
-    section {
-      background: white;
-      padding: 30px;
-      margin-bottom: 25px;
-      border-radius: 12px;
-      box-shadow: 0 6px 18px rgba(0,0,0,0.06);
-    }
+.button {
+  display: inline-block;
+  background: #00509e;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 10px;
+}
 
-    h2 {
-      color: #002855;
-      border-bottom: 2px solid #e8eef5;
-      padding-bottom: 8px;
-    }
+.publication {
+  margin-bottom: 18px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #eee;
+}
 
-    .button {
-      display: inline-block;
-      background: #00509e;
-      color: white;
-      padding: 10px 16px;
-      border-radius: 6px;
-      text-decoration: none;
-      margin-top: 10px;
-    }
+.pub-title {
+  font-weight: bold;
+  color: #002855;
+}
 
-    .button:hover {
-      background: #002855;
-    }
+.pub-authors {
+  font-style: italic;
+}
 
-    .publication {
-      margin-bottom: 18px;
-      border-bottom: 1px solid #eee;
-      padding-bottom: 12px;
-    }
+.pub-meta {
+  font-size: 0.9rem;
+  color: #555;
+}
 
-    .pub-title {
-      font-weight: bold;
-      color: #002855;
-    }
-
-    .pub-authors {
-      font-style: italic;
-    }
-
-    .pub-meta {
-      font-size: 0.9rem;
-      color: #555;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      color: #777;
-    }
-  </style>
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+}
+</style>
 </head>
 
 <body>
 
 <header>
-  <h1>Tanvir Rahman</h1>
-  <p>Ph.D. Candidate | Wearable Health Intelligence | On-device Machine Learning</p>
+<h1>Tanvir Rahman</h1>
+<p>Ph.D. Candidate | Wearable Health Intelligence | On-device Machine Learning</p>
 
-  <div class="header-buttons">
-    <a class="button" href="https://scholar.google.com/citations?view_op=list_works&user=i_LoCWQAAAAJ" target="_blank">Google Scholar</a>
-    <a class="button" href="https://www.linkedin.com/in/pritomtanvir/" target="_blank">LinkedIn</a>
-  </div>
+<div class="header-buttons">
+<a class="button" href="https://scholar.google.com/citations?view_op=list_works&user=i_LoCWQAAAAJ" target="_blank">Google Scholar</a>
+<a class="button" href="https://www.linkedin.com/in/pritomtanvir/" target="_blank">LinkedIn</a>
+</div>
 </header>
 
 <nav>
-  <a href="#about">About</a>
-  <a href="#research">Research</a>
-  <a href="#projects">Projects</a>
-  <a href="#publications">Publications</a>
-  <a href="#contact">Contact</a>
+<a href="#about">About</a>
+<a href="#research">Research</a>
+<a href="#projects">Projects</a>
+<a href="#publications">Publications</a>
+<a href="#contact">Contact</a>
 </nav>
 
 <div class="container">
 
 <section id="about">
-  <h2>About Me</h2>
-  <p>
-    I am a Ph.D. candidate at the University of Delaware working on wearable sensing,
-    on-device machine learning, and context-aware interventions to reduce sedentary behavior.
-  </p>
-</section>
-
-<section id="research">
-  <h2>Research</h2>
-  <p>
-    My research focuses on distinguishing sitting, standing, and walking using smartwatch data
-    and designing personalized just-in-time adaptive interventions.
-  </p>
-</section>
-
-<section id="projects">
-  <h2>Projects</h2>
-  <ul>
-    <li>Track & Text (Apple Watch app)</li>
-    <li>Context-aware nudging system</li>
-    <li>On-device ML for wearable health</li>
-  </ul>
+<h2>About Me</h2>
+<p>
+Ph.D. candidate at University of Delaware working on wearable sensing, 
+on-device ML, and context-aware health interventions.
+</p>
 </section>
 
 <section id="publications">
-  <h2>Publications</h2>
+<h2>Publications</h2>
 
-  <div class="publication">
-    <div class="pub-title">Context-Aware On-Device Posture Detection for Improving Wearable Health Interventions</div>
-    <div class="pub-authors"><b>Tanvir Rahman</b>, Gregory Dominick, Keith Decker</div>
-    <div class="pub-meta">Submitted to IEEE GHTC</div>
-  </div>
+<div class="publication">
+<div class="pub-title">Context-Aware On-Device Posture Detection for Improving Wearable Health Interventions</div>
+<div class="pub-authors"><b>Tanvir Rahman</b>, Gregory Dominick, Keith Decker</div>
+<div class="pub-meta">Submitted to IEEE GHTC</div>
+</div>
 
-  <div class="publication">
-    <div class="pub-title">Improving Context-Aware Personalized Nudging Using Wearable Sensors to Reduce Sedentary Behavior</div>
-    <div class="pub-authors"><b>Tanvir Rahman</b> et al.</div>
-    <div class="pub-meta">DJPH, Feb 2026</div>
-  </div>
+<div class="publication">
+<div class="pub-title">Improving Context-Aware Personalized Nudging Using Wearable Sensors to Reduce Sedentary Behavior</div>
+<div class="pub-authors"><b>Tanvir Rahman</b>, Cora Firkin, Ajith Vemuri, Barry Bodt, Elizabeth Orsega-Smith, Gregory M. Dominick, Keith S. Decker</div>
+<div class="pub-meta">DJPH, February 2026</div>
+</div>
 
-  <a class="button" href="https://scholar.google.com/citations?view_op=list_works&user=i_LoCWQAAAAJ" target="_blank">
-    View Full Publications
-  </a>
+<div class="publication">
+<div class="pub-title">Development of a Just-in-Time Adaptive Intervention to Promote Walking Behavior...</div>
+<div class="pub-authors">Cora Firkin, Ajith Vemuri, <b>Tanvir Rahman</b>, Barry Bodt, Elizabeth Orsega-Smith, Keith S. Decker, Gregory M. Dominick</div>
+<div class="pub-meta">JMIR, December 2025</div>
+</div>
+
+<div class="publication">
+<div class="pub-title">Flood Prediction Using Ensemble Machine Learning Model</div>
+<div class="pub-authors"><b>Tanvir Rahman</b> et al.</div>
+<div class="pub-meta">International Congress, June 2023</div>
+</div>
+
+<div class="publication">
+<div class="pub-title">Impact of a Batter in ODI Cricket Using Regression Models</div>
+<div class="pub-authors">Ahmad Al Asad et al., <b>Tanvir Rahman</b></div>
+<div class="pub-meta">IEEE CSDE, December 2022</div>
+</div>
+
+<div class="publication">
+<div class="pub-title">Real-Time Hostile Activity Detection Using Deep Learning</div>
+<div class="pub-authors">Labib Ahmed Siddique et al., <b>Tanvir Rahman</b></div>
+<div class="pub-meta">IEEE IPAS, December 2022</div>
+</div>
+
+<div class="publication">
+<div class="pub-title">Measuring Control of a Bowler Using Classification Models</div>
+<div class="pub-authors">Ahmad Al Asad et al., <b>Tanvir Rahman</b></div>
+<div class="pub-meta">ICIIBMS, November 2022</div>
+</div>
+
+<div class="publication">
+<div class="pub-title">Flood Prediction Using Machine Learning Models</div>
+<div class="pub-authors">Syeed et al., <b>Tanvir Rahman</b></div>
+<div class="pub-meta">HORA, June 2022</div>
+</div>
+
+<div class="publication">
+<div class="pub-title">Drone Detection by Neural Network Using GLCM and SURF</div>
+<div class="pub-authors">Tanzia Ahmed, <b>Tanvir Rahman</b>, et al.</div>
+<div class="pub-meta">Journal, 2021</div>
+</div>
+
+<div class="publication">
+<div class="pub-title">Automated Household Water Supply Monitoring & Billing System</div>
+<div class="pub-authors"><b>Tanvir Rahman</b>, Tanzia Ahmed, et al.</div>
+<div class="pub-meta">ICISC, January 2018</div>
+</div>
+
+<a class="button" href="https://scholar.google.com/citations?view_op=list_works&user=i_LoCWQAAAAJ" target="_blank">
+View Full Publications on Google Scholar
+</a>
+
 </section>
 
 <section id="contact">
-  <h2>Contact</h2>
-  <p>Email: <a href="mailto:rtanvir@udel.edu">rtanvir@udel.edu</a></p>
+<h2>Contact</h2>
+<p>Email: <a href="mailto:rtanvir@udel.edu">rtanvir@udel.edu</a></p>
 </section>
 
 </div>
 
 <footer>
-  © 2026 Tanvir Rahman
+© 2026 Tanvir Rahman
 </footer>
 
 </body>
