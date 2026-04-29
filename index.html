@@ -1,54 +1,204 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tanvir Rahman</title>
+
   <style>
-    body {
-      font-family: Arial;
-      margin: 0;
-      background: #f5f5f5;
+    * {
+      box-sizing: border-box;
     }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f4f6f9;
+      color: #222;
+      line-height: 1.6;
+    }
+
     header {
-      background: #003366;
+      background: linear-gradient(135deg, #002855, #00509e);
       color: white;
-      padding: 40px;
+      padding: 70px 20px;
       text-align: center;
     }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin: 0;
+      letter-spacing: 0.5px;
+    }
+
+    header p {
+      font-size: 1.15rem;
+      margin-top: 12px;
+      color: #e6eef8;
+    }
+
+    nav {
+      background: white;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav a {
+      color: #002855;
+      text-decoration: none;
+      margin: 0 14px;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: #00509e;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 35px auto;
+      padding: 0 20px;
+    }
+
     section {
       background: white;
-      margin: 20px auto;
-      padding: 20px;
-      width: 80%;
-      border-radius: 10px;
+      padding: 30px;
+      margin-bottom: 25px;
+      border-radius: 14px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    }
+
+    h2 {
+      color: #002855;
+      margin-top: 0;
+      border-bottom: 2px solid #e8eef5;
+      padding-bottom: 8px;
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #00509e;
+      color: white;
+      padding: 11px 18px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      margin-top: 10px;
+    }
+
+    .button:hover {
+      background: #002855;
+    }
+
+    .links a {
+      display: inline-block;
+      margin: 8px 12px 8px 0;
+      color: #00509e;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #666;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 
 <body>
 
-<header>
-  <h1>Tanvir Rahman</h1>
-  <p>PhD Candidate | Wearable AI | Apple Watch Research</p>
-</header>
+  <header>
+    <h1>Tanvir Rahman</h1>
+    <p>Ph.D. Candidate | Wearable Health Intelligence | On-device Machine Learning</p>
+  </header>
 
-<section>
-  <h2>About</h2>
-  <p>I work on wearable sensing and context-aware health interventions using smartwatch data.</p>
-</section>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#projects">Projects</a>
+    <a href="#publications">Publications</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-<section>
-  <h2>Projects</h2>
-  <ul>
-    <li>Track & Text (Apple Watch app)</li>
-    <li>Posture detection using ML</li>
-    <li>Context-aware nudging system</li>
-  </ul>
-</section>
+  <main class="container">
 
-<section>
-  <h2>Contact</h2>
-  <p>Email: rtanvir@udel.edu</p>
-</section>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a Ph.D. candidate in Computer and Information Sciences at the University of Delaware.
+        My research focuses on wearable sensing, activity recognition, and context-aware interventions
+        to reduce sedentary behavior using smartwatch data.
+      </p>
+    </section>
+
+    <section id="research">
+      <h2>Research</h2>
+      <p>
+        My work develops smartwatch-based systems that use sensor data from devices such as the Apple Watch
+        to distinguish sitting, standing, and walking. I focus on personalized, real-time models that support
+        just-in-time health interventions.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Track & Text:</strong> Apple Watch-based posture and activity detection system.</li>
+        <li><strong>Context-aware nudging:</strong> Personalized prompts to reduce sedentary behavior.</li>
+        <li><strong>On-device ML:</strong> Lightweight machine learning for wearable health applications.</li>
+      </ul>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <p>
+        Rahman T., Firkin C., Vemuri A., Bodt B., Orsega-Smith E., Dominick G. M., Decker K.
+        <em>Improving Context-Aware Personalized Nudging Using Wearable Sensors to Reduce Sedentary Behavior.</em>
+      </p>
+
+      <a class="button" href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=i_LoCWQAAAAJ" target="_blank">
+        View Publications on Google Scholar
+      </a>
+    </section>
+
+    <section id="links">
+      <h2>Academic Links</h2>
+      <div class="links">
+        <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=i_LoCWQAAAAJ" target="_blank">Google Scholar</a>
+        <a href="https://github.com/" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: your-email@udel.edu</p>
+      <a class="button" href="mailto:your-email@udel.edu">Email Me</a>
+    </section>
+
+  </main>
+
+  <footer>
+    © 2026 Tanvir Rahman
+  </footer>
 
 </body>
 </html>
